@@ -4,6 +4,12 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { location: "Lisbon" };
+    this.fetchWeather = this.fetchWeather.bind(this);
+  }
+
+  fetchWeather() {
+    console.log("Loading data...");
+    console.log(this);
   }
 
   render() {
@@ -15,10 +21,10 @@ class App extends React.Component {
             type="text"
             placeholder="Search from location..."
             value={this.state.location}
-            // onChange={}
+            onChange={(e) => this.setState({ location: e.target.value })}
           />
         </div>
-        <button>Get weather</button>
+        <button onClick={this.fetchWeather}>Get weather</button>
       </div>
     );
   }
