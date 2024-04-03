@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -24,31 +23,22 @@
 # 📖 [Classy Weather] <a name="about-project"></a>
 
 
-**[Classy Weather]** is a 
+**[Classy Weather]** is a weather application that uses React old classy ways of creating a website.  
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 - **[React]**
-- **[]**
 - **[CSS]**
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Group of Friends]**
-- **[Friend details]**
-- **[Bill information]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
+- **[Search location]**
+- **[Display date]**
+- **[Corresponding weather icons]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +58,7 @@ npm install
 
 Clone or fork this repository to your desired folder:
 
--git clone https://github.com/Bhekisile/The-Wild-Oasis.git
+-git clone https://github.com/Bhekisile/Classy-Weather.git
 
 ### Usage
 
@@ -93,7 +83,7 @@ You can deploy this project using: Netlify
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Accomplishments]**
+- [ ] **[Responsiveness]**
 
 <!-- CONTRIBUTING -->
 
