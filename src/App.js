@@ -104,6 +104,13 @@ class App extends React.Component {
     this.fetchWeather();
   }
 
+  // useEffect [location]
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.location !== prevState.location) {
+      this.fetchWeather();
+    }
+  }
+
   render() {
     return (
       <div className="app">
