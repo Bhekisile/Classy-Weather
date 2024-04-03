@@ -59,14 +59,18 @@ async function getWeather(location) {
 }
 
 class App extends React.Component {
-  state = {
-    location: "Lisbon", 
-    isLoading: false,
-    displayLocation: "",
-    weather: {},
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      location: "Lisbon", 
+      isLoading: false,
+      displayLocation: "",
+      weather: {},
+    };
+    this.fetchWeather = this.fetchWeather.bind(this);
+  }
 
-  fetchWeather = async () => {
+  async fetchWeather() {
     try {
       // We can mutate the state here but not with useState()
       this.setState({ isLoading: true });
